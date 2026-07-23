@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/job_match/__init__.py
+src/job_match/cli.py
+src/job_match.egg-info/PKG-INFO
+src/job_match.egg-info/SOURCES.txt
+src/job_match.egg-info/dependency_links.txt
+src/job_match.egg-info/top_level.txt
