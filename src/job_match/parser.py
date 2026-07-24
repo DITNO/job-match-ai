@@ -11,9 +11,9 @@ def _valid_path(path):
 def parse_resume(file_path):
     #validate path
     file_path = _valid_path(file_path)
-
+    
     #open and read
-    with open(file_path,'r') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         text = f.read()
 
     #return text
