@@ -19,3 +19,10 @@ def parse_resume(file_path):
     #return text
     return text
 
+def parse_jd(file_path):
+    file_path = _valid_path(file_path)
+
+    with open(file_path, 'r', encoding='utf-8') as f:
+        text =f.read()
+
+    return text
