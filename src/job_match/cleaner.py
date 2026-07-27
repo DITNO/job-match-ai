@@ -14,11 +14,11 @@ def clean_text(text):
     text = text.lower()
 
     # tokenize
-    tokens = text.split()
+    tokens = word_tokenize(text)
 
     #remove punctuation and stop words
 
-    stop_words = set(stop_words('english'))
+    stop_words = set(stopwords.words('english'))
 
     filtered = []
 
@@ -35,4 +35,4 @@ def clean_text(text):
 
 
     #return cleaned tokens as a list
-    return token
+    return stemmed
