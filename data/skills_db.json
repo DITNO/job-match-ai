@@ -1,0 +1,14 @@
+{
+  "skills": [
+    "python", "sql", "pandas", "numpy", "scikit-learn",
+    "matplotlib", "pytorch", "tensorflow", "keras",
+    "machine learning", "deep learning", "nlp",
+    "docker", "git", "fastapi", "flask", "django",
+    "aws", "gcp", "azure", "linux", "bash",
+    "java", "javascript", "typescript", "react",
+    "postgresql", "mongodb", "redis", "kafka",
+    "langchain", "faiss", "transformers", "huggingface",
+    "data analysis", "data engineering", "mlops",
+    "computer vision", "natural language processing"
+  ]
+}
