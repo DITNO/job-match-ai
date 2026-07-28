@@ -26,7 +26,20 @@ def clean_text(text):
         if token not in stop_words and token not in string.punctuation:
             filtered.append(token)
 
+    #stemming - Your resume says: "machine learning experience"
+    '''The JD says: "machine learning experiences"
 
+    Without stemming:
+
+    "experience" ≠ "experiences" → no match
+
+    With stemming:
+
+    "experience" → "experi"
+    "experiences" → "experi"
+    Now they match ✅'''
+
+    
     stemmer = PorterStemmer()
 
     stemmed = []
